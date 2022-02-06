@@ -1,0 +1,36 @@
+.image4{
+    position: relative;
+    width:300px;
+    clip-path: circle();
+    left:75%;
+    margin-top: -25%;
+       
+}
+.image__img4{
+    display: block;
+    width: 100%;
+}
+.image__overlay4{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 235px;
+    height: 235px;
+    margin:15px 100px 100px 30px;
+    background: rgb(173,216,230,0.8);
+    display: flex;
+   flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quintessential', cursive;
+    opacity: 0;
+    border-radius: 50%;
+    
+}
+
+
+
+.image__overlay4:hover{
+    opacity: 1;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Quintessential&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+html{
+font-size: 27px;
+
+}
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.pic{
+    margin-top: 1rem;
+    width: 250px;
+    clip-path: ellipse();
+}
+.btn{
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+}
+body{
+      background: url('./images/watercolor-g3a7ec6416_1280.png');
+      background-position: 0 1000px;
+      font-family: 'Quintessential', cursive;
+      
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 7rem;
+    text-align: center;
+}
